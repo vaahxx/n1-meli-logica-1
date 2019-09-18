@@ -1,6 +1,6 @@
-// Número maior que 10
+// o numero é maior do que dez?
 
-const numero = prompt('Digite um numero');
+const numero = parseInt(prompt('Digite um numero'));
 
 if (numero >= 10) {
     alert(`${numero} é maior ou igual a dez`);
