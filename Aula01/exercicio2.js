@@ -3,7 +3,7 @@
 const n1 = parseInt(prompt('digite um número'));
 const n2 = parseInt(prompt('digite outro número'));
 
-if (n1 = n2) {
+if (n1 == n2) {
     alert(`Os números são iguais`);
 } else {
     if (n1 > n2) {
