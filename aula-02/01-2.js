@@ -16,6 +16,18 @@ if (numero == palpite1) {
 
 const palpite2 = parseInt(prompt('Digite um número de 1 a 10'));
 if (numero == palpite2) {
+    alert('voce acertou!');
+} else {
+    alert('tente de novo');
+    if (numero > palpite2) {
+        alert(`o número sorteado é MAIOR do que ${palpite2}`)
+    } else {
+        alert(`o número sorteado é MENOR do que ${palpite2}`)
+    }
+}
+
+const palpite3 = parseInt(prompt('Digite um número de 1 a 10'));
+if (numero == palpite3) {
     alert('voce acertou');
 } else {
     alert('suas chances acabaram. o número aleatório era ' + numero);
